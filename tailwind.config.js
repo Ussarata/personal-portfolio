@@ -14,7 +14,8 @@ module.exports = {
       xl:"1280px",
     },
     fontFamily:{
-      nunito:['Nunito', 'sans-serif']
+      nunito:['Nunito', 'sans-serif'],
+      rubik:['Rubik']
     }
   },
   plugins: [],
