@@ -34,12 +34,12 @@
           </li>
         </ul>
         <img
-          id="moon" class="md:block w-5 cursor-pointer mr-5" src="./img/switch.png" alt=""
+          id="moon" class="md:block w-5 cursor-pointer mr-5" src="./img/switch.png" alt="" 
         />
-        <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
-          <div class="w-6 h-0.5 bg-black dark:bg-white"></div>
-          <div class="w-6 h-0.5 bg-black dark:bg-white"></div>
-          <div class="w-6 h-0.5 bg-black dark:bg-white"></div>
+        <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20 mr-5 bg-none">
+          <div class="w-6 h-0.5 bg-black dark:bg-rose-600"></div>
+          <div class="w-6 h-0.5 bg-black dark:bg-rose-600"></div>
+          <div class="w-6 h-0.5 bg-black dark:bg-rose-600"></div>
         </div>
         <ul id="menu" class="hidden bg-gradient-to-r from-slate-600 to-rose-600 absolute left-0 top-0 w-full p-8 rounded-lg rounded-t-none space-y-4 text-white text-center shadow-lg">
           <li>
@@ -74,12 +74,12 @@
         <div class="my-auto mx-auto flex flex-col gap-3">
           <h1 class="text-3xl md:text-4xl text-rose-600 font-bold">Hi, I'm Ussama!</h1>
           <p class="text-lg md:text-xl text-slate-800 dark:text-white">
-            I am a <span class="text-rose-600 font-bold">software engineer</span> with a <span class="text-rose-600 font-bold">multi-disciplinary</span> background and experience in <span class="text-rose-600 font-bold">web development</span> and <span class="text-rose-600 font-bold">machine learning</span>.
+            I am a <span class="text-rose-800 font-bold">software engineer</span> with a <span class="text-rose-800 font-bold">multi-disciplinary</span> background and experience in <span class="text-rose-800 font-bold">web development</span> and <span class="text-rose-800 font-bold">machine learning</span>.
             <br>
-            This page serves as my portfolio where I display some of the projects I have worked on as well as extracurricular work such as digital art and music.
+            In this page, I display some of the programming projects I have worked on as well as extracurricular work such as my digital artwork and music that I have produced.
           </p>
           <h1 class="text-2xl md:text-3xl text-rose-600 font-bold">Skills and Frameworks</h1>
-          <div class="pb-2 flex flex-wrap justify-between">
+          <div class="pb-2 flex flex-wrap justify-center">
             <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">Python</span>
             <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">JavaScript</span>
             <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">C/C++</span>
@@ -87,6 +87,8 @@
             <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">Django</span>
             <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">Flask</span>
             <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">TensorFlow</span>
+            <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">Tailwind</span>
+            <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">Numpy</span>
           </div>
           <h1 class="text-2xl md:text-3xl text-rose-600 font-bold">Links</h1>
           <div class="pb-2 flex flex-wrap justify-center">
@@ -110,20 +112,42 @@
         <!-- top -->
         <div class="flex flex-col gap-3 items-center">
           <h1 class="text-3xl text-rose-600 font-bold">Projects</h1>
-          <p class="w-1/2 text-center text-slate-400">
-            Below are coding projects I have worked.
+          <p class="w-1/2 text-center text-slate-500">
+            Below are coding projects I have worked during internships, teaching assistant work as well as personal work.
           </p>
         </div>
         <!-- bottom -->
         <div class="p-5 sm:p-0 flex flex-wrap justify-between">
           <!-- card -->
-          <div class="bg-white max-w-sm overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110">
-            <img class="w-full" src="./img/mona.jpg" alt="Sunset in the mountains">
+          <div class="bg-white max-w-md overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110">
+            <img class="w-full" src="./img/pizza.jpg" alt="Sunset in the mountains">
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <div class="font-bold text-xl mb-2">Pizza Delivery Tracker</div>
               <p class="text-slate-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                A delivery tracking interface where employees can login and create, manage, and monitor deliveries and assess the performance of the restaurant.
               </p>
+            </div>
+            <div class="mt-4 flex flex-wrap justify-center pb-2">
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">C++</span>
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">OOP</span>
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">ADT</span>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="bg-white max-w-md overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110">
+            <img class="w-full" src="./img/app.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Ramble</div>
+              <p class="text-slate-700 text-base">
+                A React social media app inspired by Twitter and Tumblr and made for users who enjoy posting long form content.
+              </p>
+            </div>
+            <div class="mt-4 flex flex-wrap justify-center pb-2">
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">React</span>
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">UI</span>
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">HTML</span>
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">CSS</span>
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">Firebase</span>
             </div>
           </div>
           <!-- card -->
@@ -132,20 +156,16 @@
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
               <p class="text-slate-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque.
               </p>
             </div>
-          </div>
-          <!-- card -->
-          <div class="bg-white max-w-sm overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110">
-            <img class="w-full" src="./img/mona.jpg" alt="Sunset in the mountains">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-              <p class="text-slate-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-              </p>
+            <div class="mt-4 flex flex-wrap justify-center pb-2">
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">HTML</span>
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">CSS</span>
+              <span class="inline-block bg-slate-200 rounded-full px-3 py-1 text-base font-semibold text-slate-700 mr-2 mb-2">JavaScript</span>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -157,7 +177,7 @@
         <div class="flex flex-col gap-3 items-center">
           <h1 class="text-3xl text-rose-600 font-bold">Artwork</h1>
           <!-- <h1 class="text-3xl dark:text-white">Works & Projects</h1> -->
-          <p class="w-1/2 text-center text-slate-400">
+          <p class="w-1/2 text-center text-slate-500">
             a display of some digital art including fanarts and original work
           </p>
         </div>
@@ -223,18 +243,17 @@
         <div class="flex flex-col gap-3 items-center">
           <h1 class="text-3xl text-rose-600 font-bold">Music</h1>
           <!-- <h1 class="text-3xl dark:text-white">Works & Projects</h1> -->
-          <p class="w-1/2 text-center text-slate-400">
-            A compilation of instrumentals I produced as a hobby. A lot of these include samples from various genres while others are original compositions.
+          <p class="w-1/2 text-center text-slate-500">
+            A compilation of instrumentals I produced as a hobby. These were made using FL studio. Some include samples from various genres while others are original compositions.
           </p>
         </div>
         <!-- bottom -->
           <div class="p-5 sm:p-0 flex flex-wrap justify-between">
-
           <!-- card -->
           <div class="mx-auto w-full overflow-hidden w-full shadow-xl rounded-lg my-3 md:my-10 flex flex-col">
-            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1151991172&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1148246368&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-              <a href="https://soundcloud.com/aratasasaki" title="aratasaki" target="_blank" style="color: #cccccc; text-decoration: none;">aratasaki</a> · <a href="https://soundcloud.com/aratasasaki/sets/gold-experience" title="gold experience" target="_blank" style="color: #cccccc; text-decoration: none;">gold experience</a>
+              <a href="https://soundcloud.com/aratasasaki" title="aratasaki" target="_blank" style="color: #cccccc; text-decoration: none;">aratasaki</a> · <a href="https://soundcloud.com/aratasasaki/sets/made-in-heaven" title="made in heaven" target="_blank" style="color: #cccccc; text-decoration: none;">made in heaven</a>
             </div>
           </div>
           <!-- card -->
@@ -246,9 +265,9 @@
           </div>
           <!-- card -->
           <div class="mx-auto w-full overflow-hidden w-full shadow-xl rounded-lg my-3 md:my-10 flex flex-col">
-            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1151991172&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1148262484&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-              <a href="https://soundcloud.com/aratasasaki" title="aratasaki" target="_blank" style="color: #cccccc; text-decoration: none;">aratasaki</a> · <a href="https://soundcloud.com/aratasasaki/sets/gold-experience" title="gold experience" target="_blank" style="color: #cccccc; text-decoration: none;">gold experience</a>
+              <a href="https://soundcloud.com/aratasasaki" title="aratasaki" target="_blank" style="color: #cccccc; text-decoration: none;">aratasaki</a> · <a href="https://soundcloud.com/aratasasaki/sets/heavens-door" title="heaven&#x27;s door" target="_blank" style="color: #cccccc; text-decoration: none;">heaven&#x27;s door</a>
             </div>
           </div>
 
@@ -262,36 +281,56 @@
       <div class="container mx-auto pb-5">
         <!-- top -->
         <div class="flex flex-col gap-3 items-center">
-          <h1 class="text-rose-600 font-bold">Contact</h1>
-          <h1 class="text-3xl dark:text-white">Have a Question?</h1>
-          <p class="w-1/2 text-center text-slate-400">
-            Do you have an idea? Let's discuss it and see what we can do
-            together.
+          <h1 class="text-3xl text-rose-600 font-bold">Contact</h1>
+          <p class="w-1/2 text-center text-slate-500">
+            Feel free to reach out!
           </p>
         </div>
+        <!-- Form -->
+        <div class="lg:py-8 px-4 mx-auto max-w-screen-md">
+          <form action="#" class="space-y-8">
+              <div>
+                  <label for="email" class="block mb-2 text-base font-medium text-slate-900 dark:text-slate-300">Email</label>
+                  <input type="email" id="email" class="shadow-sm bg-slate-50 border border-slate-300 text-slate-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-slate-700 dark:border-slate-600 dark:placeholder-slate-500 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Type a valid email address" required>
+              </div>
+              <div>
+                  <label for="subject" class="block mb-2 text-base font-medium text-slate-900 dark:text-slate-300">Subject</label>
+                  <input type="text" id="subject" class="block p-3 w-full text-sm text-slate-900 bg-slate-50 rounded-lg border border-slate-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-slate-700 dark:border-slate-600 dark:placeholder-slate-500 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Type your subject" required>
+              </div>
+              <div class="sm:col-span-2">
+                  <label for="message" class="block mb-2 text-base font-medium text-slate-900 dark:text-slate-300">Message</label>
+                  <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-slate-900 bg-slate-50 rounded-lg shadow-sm border border-slate-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-slate-700 dark:border-slate-600 dark:placeholder-slate-500 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type your email"></textarea>
+              </div>
+              <div class="flex justify-center"> <!-- Added flex container with center alignment -->
+                <button type="submit" class="py-2 px-5 text-base font-medium text-white rounded-lg bg-rose-800 sm:w-fit hover:bg-rose-600 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send</button>
+              </div>
+          </form>
+        </div>
+
+        <!-- Contact Cards -->
         <div class="p-5 sm:p-0 flex flex-wrap justify-between">
         <!-- card -->
-          <div class="max-w-sm overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110 bg-white text-center">
+          <div class="max-w-sm overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110 bg-white dark:bg-slate-700 text-center">
             <div class="px-6 py-4">
-              <i class="fa fa-address-card inline-block ml-5 mr-5 mb-5" style="font-size:48px;color:black"></i>
+              <i class="fa fa-address-card inline-block ml-5 mr-5 mb-5" style="font-size:48px;color:darkred"></i>
               <div class="font-bold text-xl mb-2">Address</div>
-              <p class="text-rose-600 text-base">116 E Franklin St. Richmond, VA</p>
+              <p class="text-rose-600 dark:text-slate-300 text-base">116 E Franklin St. Richmond, VA</p>
             </div>
           </div>
           <!-- card -->
-          <div class="max-w-sm overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110 bg-white text-center">
+          <div class="max-w-sm overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110 bg-white dark:bg-slate-700 text-center">
             <div class="px-6 py-4">
-              <i class="fa fa-envelope inline-block ml-5 mr-5 mb-5" style="font-size:48px;color:black"></i>
+              <i class="fa fa-envelope inline-block ml-5 mr-5 mb-5" style="font-size:48px;color:darkred"></i>
               <div class="font-bold text-xl mb-2">Mail</div>
-              <p class="text-rose-600 text-base">ussamustafa21@gmail.com</p>
+              <p class="text-rose-600 dark:text-slate-300 text-base">ussamustafa21@gmail.com</p>
             </div>
           </div>
           <!-- card -->
-          <div class="max-w-sm overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110 bg-white text-center">
+          <div class="max-w-sm overflow-hidden w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3 transition-all hover:scale-110 bg-white dark:bg-slate-700 text-center">
             <div class="px-6 py-4">
-              <i class="fa fa-phone inline-block ml-5 mr-5 mb-5" style="font-size:48px;color:black"></i>
+              <i class="fa fa-phone inline-block ml-5 mr-5 mb-5" style="font-size:48px;color:darkred"></i>
               <div class="font-bold text-xl mb-2">Phone</div>
-              <p class="text-rose-600 text-base">330-845-1033</p>
+              <p class="text-rose-600 dark:text-slate-300 text-base">330-845-1033</p>
             </div>
           </div>
         </div>
